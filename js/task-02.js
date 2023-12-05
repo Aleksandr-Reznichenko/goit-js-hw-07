@@ -28,14 +28,11 @@ const images = [
 ];
 
 const listOfPicture = document.querySelector('.gallery');
-listOfPicture.classList.add('list');
 
 const elements = images.map(option => {
   const itemEl = document.createElement('li');
-  itemEl.classList.add('gallery-item');
 
   const imageEl = document.createElement('img');
-  imageEl.classList.add('gallery-img');
   imageEl.src = option.url;
   imageEl.alt = option.alt;
   imageEl.width = 360;

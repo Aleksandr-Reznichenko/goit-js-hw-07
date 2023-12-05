@@ -10,9 +10,3 @@ nameInput.addEventListener('input', event => {
     nameOutput.textContent = 'Anonymous';
   }
 });
-
-const inputText = document.querySelector('input');
-inputText.classList.add('input-text');
-
-const heading = document.querySelector('h1');
-heading.classList.add('output-title');
